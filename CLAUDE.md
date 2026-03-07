@@ -1,6 +1,6 @@
 # lokigrabber
 
-Jupyter notebooks for querying Loki logs and exporting session data to CSV/Excel.
+Python script for querying Loki logs and exporting session data to CSV/Excel.
 
 ## Environment
 
@@ -9,8 +9,7 @@ Jupyter notebooks for querying Loki logs and exporting session data to CSV/Excel
 
 ## Project structure
 
-- `loki_grabber.ipynb` — single-session log query and CSV export
-- `loki_multi_session.ipynb` — multi-session batch query
+- 'loki_grabber.py' - a script to pull single or multiple UL session transcripts from loki
 
 ## Configuration
 
