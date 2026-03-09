@@ -29,5 +29,7 @@ Secrets live in `.env` (gitignored). See `.env.example` for required keys:
 ## Version control
 
 - Remote: `git@github.com:UL-stuart/lokigrabber.git`
-- Always target `main` for PRs
+- Never commit directly to `main` — always use a feature branch
+- Branch naming: `feature/<short-description>` or `fix/<short-description>`
+- Workflow: create branch → commit changes → push branch → open PR targeting `main`
 - Ask before pushing or creating PRs
