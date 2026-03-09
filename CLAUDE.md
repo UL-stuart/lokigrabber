@@ -33,3 +33,5 @@ Secrets live in `.env` (gitignored). See `.env.example` for required keys:
 - Branch naming: `feature/<short-description>` or `fix/<short-description>`
 - Workflow: create branch → commit changes → push branch → open PR targeting `main`
 - Ask before pushing or creating PRs
+- **For new features:** Ask if you want to create a new feature branch (e.g., `feature/description`) or continue on the current branch
+- **Before every commit:** Run the test suite (`pytest test_loki_grabber.py -v`) to ensure all tests pass
