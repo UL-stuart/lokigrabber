@@ -25,3 +25,9 @@ Secrets live in `.env` (gitignored). See `.env.example` for required keys:
 - Loki query: `query_range` endpoint with nanosecond timestamps, `X-Scope-OrgID` header
 - SSL verification disabled (`verify=False`) — internal/self-signed certs
 - Output: CSV with columns `datetime`, `player`, `channel`, `message`; emails redacted to `@PLAYER`
+
+## Version control
+
+- Remote: `git@github.com:UL-stuart/lokigrabber.git`
+- Always target `main` for PRs
+- Ask before pushing or creating PRs
